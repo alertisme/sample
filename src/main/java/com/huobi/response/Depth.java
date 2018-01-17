@@ -19,8 +19,8 @@ public class Depth {
 
     private String id;
     private String ts;
-    private List<List<Integer>> bids;
-    private List<List<Integer>> asks;
+    private List<List<BigDecimal>> bids;
+    private List<List<BigDecimal>> asks;
 
     public String getId() {
         return id;
@@ -38,19 +38,19 @@ public class Depth {
         this.ts = ts;
     }
 
-    public List<List<Integer>> getBids() {
+    public List<List<BigDecimal>> getBids() {
         return bids;
     }
 
-    public void setBids(List<List<Integer>> bids) {
+    public void setBids(List<List<BigDecimal>> bids) {
         this.bids = bids;
     }
 
-    public List<List<Integer>> getAsks() {
+    public List<List<BigDecimal>> getAsks() {
         return asks;
     }
 
-    public void setAsks(List<List<Integer>> asks) {
+    public void setAsks(List<List<BigDecimal>> asks) {
         this.asks = asks;
     }
 }
